@@ -6,7 +6,7 @@ These are agent instructions plus small helper scripts. They do not install an M
 
 ## Start here
 
-1. Clone or download this repository to your Mac.
+1. [Download and install DaVinci Resolve **19.1.4 Free for Mac**](docs/download-resolve-19.1.4.md), using the illustrated guide to find the **21 Mar 2025** entry on Blackmagic Support. Then clone or download this repository to your Mac.
 2. From its root, run `python3 scripts/install_skills.py` to install all four sibling skill folders into `$CODEX_HOME/skills` (default `~/.codex/skills`). Identical installs are skipped; differing installs are refused so they can be reviewed and backed up.
 3. Open your project in Resolve and install the read-only menu entry:
    ```sh
@@ -28,6 +28,7 @@ Keep this checkout at the same path after installing the menu entry. The entry u
 
 ## Guides
 
+- [Download the right Resolve version (with screenshot)](docs/download-resolve-19.1.4.md)
 - [Resolve 19.1 quick start and capability limits](docs/resolve-19.1-quickstart.md)
 - [ElevenLabs voiceovers](docs/elevenlabs.md): credentials, voice selection, generation, natural phrasing and music ducking
 - [Performance editing recipes](skills/edit-davinci-video/references/performance-recipes.md): source review, fast cuts, cooler grades, versioned corrections

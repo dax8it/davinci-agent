@@ -33,3 +33,7 @@ Removed assumptions that dialogue treatment applies to songs, that all outputs s
 - ElevenLabs authentication: https://elevenlabs.io/docs/api-reference/authentication
 
 The ElevenLabs helper is independent client code, not the official MCP server. Its documented API request uses a voice ID, model ID and voice settings. Live production used `eleven_multilingual_v2`; verify availability for your account before using it.
+
+## Download-card screenshot
+
+`docs/images/resolve-19.1.4-free-download.png` was supplied by the user on September 14, 2026, showing the DaVinci Resolve 19.1.4 Free download card dated March 21, 2025 on the [official Blackmagic Support Center](https://www.blackmagicdesign.com/support/). Included as a visual identification aid at the user's request. Blackmagic Design retains rights to its website content and trademarks; the repository's MIT license does not relicense this screenshot.

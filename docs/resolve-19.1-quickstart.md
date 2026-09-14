@@ -1,5 +1,9 @@
 # Resolve 19.1 on macOS
 
+## Download Resolve first
+
+Use the [illustrated Resolve 19.1.4 download guide](download-resolve-19.1.4.md) to locate the **DaVinci Resolve 19.1.4** Free entry dated **21 Mar 2025** on Blackmagic Support and select **Mac OS**. Confirm **19.1.4 Build 11** after installing, then continue below.
+
 ## What connects to what
 
 Codex reads the four SKILL.md folders. A local UI tool or a person invokes a script inside Resolve. Resolve's internal Lua API inspects or edits the project. ElevenLabs separately generates narration files, which are imported into Resolve. Model choice does not change Resolve licensing or API access.
