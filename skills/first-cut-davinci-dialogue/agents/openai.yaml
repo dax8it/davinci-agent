@@ -1,3 +1,3 @@
 interface:
-  display_name: "DaVinci Spoken First Cut"
-  short_description: "Trim spoken segments while preserving music and sync"
+  display_name: "DaVinci Dialogue First Cut"
+  short_description: "Trim spoken material while preserving meaning and sync"

@@ -1,6 +1,6 @@
-# Reusable performance-editing lessons
+# Worked example: live-performance and venue editing
 
-These are starting points learned in one live-band/venue project, not fixed settings for every video.
+This optional specialization records lessons from one live-band/venue project. The general editing workflow can also serve other video types; the settings and narrative structure here are not global defaults.
 
 ## Source review
 

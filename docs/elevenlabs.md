@@ -2,7 +2,7 @@
 
 Read the complete [voiceover workflow](../skills/edit-davinci-video/references/elevenlabs-voiceovers.md), also shipped inside the installed visual-editing skill.
 
-It covers private credential selection (including Hermes profiles), the portable REST helper, voice/model inspection, generation without automatic paid retries, natural phrasing, separate music and narration stems, ducking, audio-only corrections and delivery checks. An ElevenLabs MCP is optional; the tested production workflow used REST directly.
+It covers private credential selection (including Hermes profiles), the portable REST helper, voice/model inspection, generation without automatic paid retries, natural phrasing, separate background and narration stems, ducking, audio-only corrections and delivery checks. It applies to explainers, tutorials, product videos, events and other narrated edits; the live-band mix is a worked example. An ElevenLabs MCP is optional; the tested production workflow used REST directly.
 
 Quick verification from this repository:
 

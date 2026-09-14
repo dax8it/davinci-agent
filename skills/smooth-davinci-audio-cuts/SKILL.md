@@ -1,6 +1,6 @@
 ---
 name: smooth-davinci-audio-cuts
-description: Inspect and smooth audio joins in DaVinci Resolve 19 while preserving sync, musical continuity, and manual edits. Use for short dialogue crossfades or selected performance-audio transitions, with fade shape and duration matched to the material.
+description: Inspect and smooth audio joins in DaVinci Resolve 19 while preserving sync, musical continuity, and manual edits. Use for short dialogue crossfades or selected music, ambience and effects transitions, with fade shape and duration matched to the material.
 ---
 
 # DaVinci Audio Crossfades
@@ -11,7 +11,7 @@ Read [the Resolve 19 macOS profile](../edit-davinci-video/references/resolve19-m
 
 ## Choose which seams need a fade
 
-A picture cut between cameras of the same performance normally leaves the chosen master audio continuous. Do not cut that master, fade every camera scratch track, or introduce a music transition merely because picture changes.
+A picture-only cut, B-roll insertion or switch between synchronized cameras normally leaves the chosen dialogue, music or ambience bed continuous. Do not cut that master, fade every camera scratch track, or introduce a music transition merely because picture changes.
 
 For dialogue, a centered **Cross Fade 0 dB, two frames** is a starting option, not a project-wide rule. For a change of song excerpt, audio recording, or venue sequence, choose handles, shape, and duration from the actual musical phrase and ambience. Equal-power fades can help uncorrelated material but can produce a bump with correlated recordings. Overlapping microphones can cause comb filtering or doubled transients; check polarity, phase, sync, and mono compatibility rather than blindly stacking them.
 

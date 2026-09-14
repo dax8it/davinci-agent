@@ -39,8 +39,10 @@ Console activation was intermittent through our UI bridge. The Scripts menu reli
 
 ## Start an authorized edit
 
+Use the [general editing profiles](../skills/edit-davinci-video/references/general-workflows.md) for the project type. The [performance recipe](../skills/edit-davinci-video/references/performance-recipes.md) is an optional worked example, not the required structure or look.
+
 1. Create a brief naming project, sources, reference, output folder, backup folder, aspect ratio, fps, desired length and audio/voice requirements.
-2. Inspect sources: frame rates, orientation metadata, durations, source availability and Finder tags if the user used them to rate clips. Store source selections by file and exact time range. Color tags guide selection; they do not identify songs or people.
+2. Inspect sources: frame rates, orientation metadata, durations, source availability and user ratings/metadata such as Finder tags when relevant. Store source selections by file and exact time range. Color tags guide selection; they do not identify songs or people.
 3. Save the project and export a recoverable DRP/DRT before structural edits. Work on a clearly named new timeline or duplicate. A backup references media; it does not contain all source files.
 4. Use the installed SDK and audited capabilities to prepare a bounded Lua operation. Guard project identity, target timeline ID/name, source paths and export filename. Keep read-only launchers read-only; give an editing operation its own explicit launcher.
 5. Execute through the Scripts menu. Check logs and resulting ranges/tracks/grades before rendering. After a partial failure, inspect what already exists and recover by exact identity. Do not blindly rerun or overwrite a completed output.

@@ -22,3 +22,8 @@ The installed four skills and core audit derive from that working setup. The gen
 Read-only audit execution must be repeated on a recipient's machine. For any editing API, verify returned state and a short representative export before a larger run. This package does not ship the one-off production assembly scripts; an agent must prepare scoped scripts from the user's project brief and audited capabilities.
 
 Package validation on September14,2026:14 mocked tests passed, all four skill metadata records and local Markdown links checked, all Lua scripts parsed as Lua5.1, and the distribution was checked for production-machine paths and common credential patterns. The extracted CLI was not used to generate additional paid speech during packaging.
+
+
+## General editing scope
+
+The main skill now covers general video editing, with optional profiles for interviews/podcasts, tutorials/screen recordings, product/social videos, travel/events and music performances. Live-band/venue work remains the production example underlying the existing live evidence. Generalizing the editorial instructions does not establish new live verification of captions, multi-camera features, every genre or another Resolve build.

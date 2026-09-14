@@ -1,4 +1,4 @@
-# ElevenLabs narration for performance and venue videos
+# ElevenLabs narration for video editing
 
 Use when the user authorizes voiceover creation. The tested path was ElevenLabs REST plus local mixing and Resolve import; no ElevenLabs MCP was installed. An available MCP may be used instead after inspecting its actual capabilities and credential setup. Codex authentication is separate from ElevenLabs authentication.
 
@@ -26,15 +26,21 @@ The private file needs a line `ELEVENLABS_API_KEY=your_actual_key`, entered in a
 
 ## Natural delivery and accurate description
 
+Write for the actual purpose: explain a tutorial step, connect documentary scenes, describe an approved product benefit or guide a venue visit. Narration is optional; it should support the source material rather than replace useful dialogue or natural sound. The band/venue examples below come from the tested production and are not a template for every project.
+
 - Write short conversational beats linked to visible events: arriving, entering, seeing the band, room details, audience interaction, closing.
-- Introduce both the band and venue explicitly. Vary phrasing across versions; give each voice a coherent personality rather than changing speakers mid-sentence.
+- Introduce the relevant subject and context. In a band/venue promo, that can mean naming both the band and venue. Vary phrasing across versions; give each voice a coherent personality rather than changing speakers mid-sentence.
 - Use contractions, specific observations and occasional pauses. Avoid filling every second or repeating generic praise.
 - In the tested edits Laura (American female), Will (American male) and George (British male) were effective stock choices. Inspect current availability; names and IDs are not guaranteed. Stability roughly.38–.43, similarity.75, style.08 and speaker boost were useful starting points, not universal settings.
 - Generate each beat separately at natural speed. Rephrase or reposition if it runs long rather than automatically speeding it up. Measure the actual duration and check overlap.
 - Verify the person/action before narrating it. In our source review, an audience member playing tambourine was initially mistaken for the singer. The correction changed only that beat; separate footage genuinely showed the lead singer on the floor. Never infer identity from clothing, proximity to the stage or a single small thumbnail alone.
 - Do not claim a song title without verification. Distinct source recordings may repeat a song.
 
-## Mix against the band
+## Mix against dialogue, music and ambience
+
+Choose foreground and background roles from the brief. Keep interview dialogue intelligible and avoid unintentionally talking over it. Duck a music/ambience bed where narration needs space; do not indiscriminately reduce every track. Final loudness and ducking depend on the actual material and destination.
+
+The following is the **worked live-performance example**:
 
 Keep independent48k stereo stems: A1 performance mix, A2 original synchronized reference muted, A3 narration. Preserve real-time musical content and picture/audio offsets. Do not treat singing as removable speech or apply dialogue gates to the entire performance.
 

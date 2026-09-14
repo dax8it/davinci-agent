@@ -25,6 +25,10 @@ Prepared for dax8it using Codex during a live-band and venue-promo editing proje
 
 Removed assumptions that dialogue treatment applies to songs, that all outputs should be square/4K, or that universal fades/keyboard remaps/external scripting apply to every setup. No upstream certification of Resolve19 compatibility is implied.
 
+## General editing scope
+
+The package now uses general video editing as its main entry point. Band and venue workflows remain optional worked examples from the production that informed the adaptation. Added general project briefs and editorial profiles while retaining the original four skill names, source credits, license notices and the exact Resolve19.1 verification limits.
+
 ## Technical references
 
 - Blackmagic's locally installed SDK: `/Library/Application Support/Blackmagic Design/DaVinci Resolve/Developer/Scripting/README.txt`. Consult the version installed with your build.

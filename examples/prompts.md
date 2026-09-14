@@ -1,6 +1,6 @@
-# Example requests
+# Worked example: live performances and venue videos
 
-Replace project and filesystem paths with your own. These are examples, not automatic authorization.
+These requests illustrate the package through the live-performance project that informed it. For other video types, start with [general editing prompts](general-prompts.md). Replace project and filesystem paths with your own; examples are not automatic authorization.
 
 ## Audit first
 
