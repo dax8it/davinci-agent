@@ -1,0 +1,3 @@
+interface:
+  display_name: "DaVinci Spoken Audio Cleanup"
+  short_description: "Clean introductions and interviews in Resolve 19"
